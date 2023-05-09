@@ -1,0 +1,498 @@
+/*
+.conteneur
+
+.conteneur .menu
+.conteneur .contenu
+
+.conteneur .contenu .accueil
+
+.conteneur .contenu .inscription
+.conteneur .contenu .connexion
+.conteneur .contenu .espaceMembre
+
+.conteneur .contenu .listeSports
+.conteneur .contenu .informationsSport
+.conteneur .contenu .inscriptionSport
+
+.conteneur .contenu .gestionUtilisateurs
+.conteneur .contenu .gestionAjouter
+.conteneur .contenu .gestionModifier
+.conteneur .contenu .gestionSupprimer
+
+.conteneur .contenu .message
+*/
+
+
+
+/* GLOBAL */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-color: #398AB9;
+    height: 100vh;
+}
+
+.conteneur {
+	display: flex;
+}
+
+
+/* MENU - GAUCHE */
+.conteneur .menu {
+    position: static;
+	height: 100vh;
+	width: 25%;
+	border-right: 1px solid black;
+	margin-right: 50px;
+	background-color: #1C658C;
+}
+.menu a {
+	text-decoration: underline;
+	color: #54BAB9;
+}
+.menu a h1 {
+	font-size: 45px;
+	margin: 15px 0 15px 20px;
+}
+
+.menu form {
+	margin: 5px 0px 5px 10px;
+}
+
+.menu input[type="submit"] {
+	background-color: #E9DAC1;
+	border: none;
+	color: #54BAB9;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition: 1s;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.menu input[type="submit"]:hover {
+	background-color: #F7ECDE;
+	text-decoration: none;
+	transition-duration: 0.1s;
+}
+
+
+
+/* CONTENU - DROITE */
+.conteneur .contenu {
+    height: 100vh;
+    width: 100%;
+	margin-right: 50px;
+    /*  */border: 1px solid black;
+}
+.flex {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+/* PAGE ACCUEIL */
+.accueil {
+	text-align: center;
+}
+.accueil ul {
+	list-style-type: none;
+}
+
+
+/* PAGE INSCRIPTION | PAGE CONNEXION */
+.inscription,
+.connexion {
+	display: flex;
+	flex-direction: row;
+	width: auto;
+	height: auto;
+	margin: auto auto;
+	background: #fff;
+	border: 1px solid black;
+	border-radius: 15px;
+}
+.inscription form,
+.connexion form {
+	padding: 40px 30px;
+	background: #fefefe;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-bottom: 20px;
+	border-radius: 15px;
+}
+.inscription form h3,
+.connexion form h3 {
+	color: black;
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 30px;
+	text-decoration: underline;
+}
+.inscription form .label-flottant,
+.connexion form .label-flottant {
+	position: relative;
+	margin-bottom: 10px;
+}
+.inscription form .label-flottant input,
+.connexion form .label-flottant input {
+	font-size: 16px;
+	padding: 20px 0px;
+	height: 56px;
+	border: none;
+	border-bottom: 1px solid black;
+	background: #fff;
+	min-width: 280px;
+	box-sizing: border-box;
+	transition: all .3s linear;
+	color: black;
+	font-weight: 400;
+	/* -webkit-appearance: none; */
+}
+.inscription form .label-flottant input:focus,
+.connexion form .label-flottant input:focus {
+	border-bottom: 1px solid #398AB9;
+	outline: 0;
+}
+.inscription form .label-flottant input:not(:placeholder-shown),
+.connexion form .label-flottant input:not(:placeholder-shown) {
+	padding: 28px 0px 12px 0px;
+}
+.inscription form .label-flottant input:not(:placeholder-shown) + label,
+.connexion form .label-flottant input:not(:placeholder-shown) + label {
+	transform: translateY(-12px);
+	opacity: 1;
+}
+.inscription form .label-flottant label,
+.connexion form .label-flottant label {
+	position: absolute;
+	top: calc(50% - 7px);
+	left: 0;
+	opacity: 0;
+	transition: all .3s ease;
+	font-size: 15px;
+	color: black;
+	font-weight: 800;
+}
+.inscription form input[type="submit"],
+.connexion form input[type="submit"] {
+	background-color: #E9DAC1;
+	border: none;
+	color: #54BAB9;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition: 1s;
+	cursor: pointer;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.inscription form input[type="submit"]:hover,
+.connexion form input[type="submit"]:hover {
+	background-color: #F7ECDE;
+	text-decoration: none;
+	transition-duration: 0.1s;
+}
+
+/* PAGE ESPACE MEMBRE */
+.espaceMembre .tableau {
+    width:90%;
+    margin:auto;
+    border-collapse:collapse;
+}
+.espaceMembre .tableau th {
+	color:ActiveCaption;
+}
+.espaceMembre .tableau td {
+    border:1px solid ActiveCaption;
+    padding:10px;
+}
+
+
+
+/* PAGE LISTE SPORTS */
+.listeSports .tableau {
+    width:90%;
+    margin:auto;
+    border-collapse:collapse;
+}
+.listeSports .tableau th {
+	color:ActiveCaption;
+}
+.listeSports .tableau td {
+    border:1px solid ActiveCaption;
+    padding:10px;
+}
+
+.listeSports form button[type="submit"] {
+	background-color: #E9DAC1;
+	border: none;
+	color: #54BAB9;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition: 1s;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.listeSports form button[type="submit"]:hover {
+	background-color: #F7ECDE;
+	text-decoration: none;
+	transition-duration: 0.1s;
+}
+
+
+/* PAGE INFORMATIONS SPORT */
+.informationsSport form button[type="submit"] {
+	background-color: #E9DAC1;
+	border: none;
+	color: #54BAB9;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition: 1s;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.informationsSport form button[type="submit"]:hover {
+	background-color: #F7ECDE;
+	text-decoration: none;
+	transition-duration: 0.1s;
+}
+
+
+
+/* PAGE INSCRIPTION SPORT */
+.inscriptionSport form input[type="submit"] {
+	background-color: #E9DAC1;
+	border: none;
+	color: #54BAB9;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition: 1s;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.inscriptionSport form input[type="submit"]:hover {
+	background-color: #F7ECDE;
+	text-decoration: none;
+	transition-duration: 0.1s;
+}
+
+
+/* PAGE GESTION UTILISATEURS */
+.gestionUtilisateurs a,
+.gestionUtilisateurs .pagination a,
+.gestionUtilisateurs form button[type="submit"] {
+	background-color: #E9DAC1;
+	border: none;
+	color: #54BAB9;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition: 1s;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.gestionUtilisateurs a {
+	margin: 10px 0 10px 5px !important;
+}
+.gestionUtilisateurs form button[type="submit"] {
+	padding: 5px !important;
+	margin: 0 !important;
+}
+
+.gestionUtilisateurs a:hover,
+.gestionUtilisateurs .pagination a:hover,
+.gestionUtilisateurs form button[type="submit"]:hover {
+	background-color: #F7ECDE;
+	text-decoration: none;
+	transition-duration: 0.1s;
+}
+
+.gestionUtilisateurs .center {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.gestionUtilisateurs .pagination {
+	display: inline-block;
+}
+
+.gestionUtilisateurs .tableau {
+    width:90%;
+    margin:auto;
+    border-collapse:collapse;
+}
+.gestionUtilisateurs .tableau th {
+	color:ActiveCaption;
+}
+.gestionUtilisateurs .tableau td {
+    border:1px solid ActiveCaption;
+    padding:10px;
+}
+
+
+/* PAGE AJOUTER UTILISATEURS | PAGE MODIFIER UTILISATEURS */
+.gestionAjouter,
+.gestionModifier {
+	display: flex;
+	flex-direction: row;
+	width: auto;
+	height: auto;
+	margin: auto auto;
+	background: #fff;
+	border: 1px solid black;
+	border-radius: 15px;
+}
+.gestionAjouter form,
+.gestionModifier form {
+	padding: 40px 30px;
+	background: #fefefe;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-bottom: 20px;
+	border-radius: 15px;
+}
+.gestionAjouter form h3,
+.gestionModifier form h3 {
+	color: black;
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 30px;
+	text-decoration: underline;
+}
+.gestionAjouter form .label-flottant,
+.gestionModifier form .label-flottant {
+	position: relative;
+	margin-bottom: 10px;
+}
+.gestionAjouter form .label-flottant input,
+.gestionModifier form .label-flottant input {
+	font-size: 16px;
+	padding: 20px 0px;
+	height: 56px;
+	border: none;
+	border-bottom: 1px solid black;
+	background: #fff;
+	min-width: 280px;
+	box-sizing: border-box;
+	transition: all .3s linear;
+	color: black;
+	font-weight: 400;
+	/* -webkit-appearance: none; */
+}
+.gestionAjouter form .label-flottant input:focus,
+.gestionModifier form .label-flottant input:focus {
+	border-bottom: 1px solid #398AB9;
+	outline: 0;
+}
+.gestionAjouter form .label-flottant input:not(:placeholder-shown),
+.gestionModifier form .label-flottant input:not(:placeholder-shown) {
+	padding: 28px 0px 12px 0px;
+}
+.gestionAjouter form .label-flottant input:not(:placeholder-shown) + label,
+.gestionModifier form .label-flottant input:not(:placeholder-shown) + label {
+	transform: translateY(-12px);
+	opacity: 1;
+}
+.gestionAjouter form .label-flottant label,
+.gestionModifier form .label-flottant label {
+	position: absolute;
+	top: calc(50% - 7px);
+	left: 0;
+	opacity: 0;
+	transition: all .3s ease;
+	font-size: 15px;
+	color: black;
+	font-weight: 800;
+}
+.gestionAjouter form input[type="submit"],
+.gestionModifier form input[type="submit"] {
+	background-color: #E9DAC1;
+	border: none;
+	color: #54BAB9;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition: 1s;
+	cursor: pointer;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.gestionAjouter form input[type="submit"]:hover,
+.gestionModifier form input[type="submit"]:hover {
+	background-color: #F7ECDE;
+	text-decoration: none;
+	transition-duration: 0.1s;
+}
+
+.gestionModifier form .label label {
+	font-weight: 800;
+}
+
+
+/* PAGE SUPPRIMER UTILISATEURS */
+.gestionSupprimer div {
+	display: flex;
+}
+.gestionSupprimer form input[type="submit"] {
+	background-color: #E9DAC1;
+	border: none;
+	color: #54BAB9;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition: 1s;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.gestionSupprimer form input[type="submit"]:hover {
+	background-color: #F7ECDE;
+	text-decoration: none;
+	transition-duration: 0.1s;
+}
+
+
+
+/* PAGE MESSAGE */
+
+
+
+
+
+

@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		940A422827F305B200C2F939 /* LeClubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940A422727F305B200C2F939 /* LeClubApp.swift */; };
+		940A422C27F305B400C2F939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940A422B27F305B400C2F939 /* Assets.xcassets */; };
+		940A422F27F305B400C2F939 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940A422E27F305B400C2F939 /* Preview Assets.xcassets */; };
+		944FA85E27F66F7200FADDEF /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944FA85D27F66F7200FADDEF /* Date+Extension.swift */; };
+		944FA86027F7592000FADDEF /* HistoricalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944FA85F27F7592000FADDEF /* HistoricalList.swift */; };
+		944FA86227F75D5100FADDEF /* HistoricalDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944FA86127F75D5100FADDEF /* HistoricalDetail.swift */; };
+		944FA86427F76EFE00FADDEF /* AddSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944FA86327F76EFD00FADDEF /* AddSport.swift */; };
+		944FA86627F7706700FADDEF /* AddSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944FA86527F7706700FADDEF /* AddSession.swift */; };
+		944FA86827F7717400FADDEF /* AddRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944FA86727F7717400FADDEF /* AddRole.swift */; };
+		9481B42327F5FA9D00AD9B22 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9481B42227F5FA9D00AD9B22 /* LoginView.swift */; };
+		9481B42527F5FAD900AD9B22 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9481B42427F5FAD900AD9B22 /* MenuView.swift */; };
+		9481B42727F5FBC300AD9B22 /* RoleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9481B42627F5FBC300AD9B22 /* RoleList.swift */; };
+		9481B42927F5FBCF00AD9B22 /* SessionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9481B42827F5FBCF00AD9B22 /* SessionList.swift */; };
+		9481B42B27F600E700AD9B22 /* RoleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9481B42A27F600E700AD9B22 /* RoleDetail.swift */; };
+		9481B42D27F600F500AD9B22 /* SessionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9481B42C27F600F500AD9B22 /* SessionDetail.swift */; };
+		9481B42F27F600FD00AD9B22 /* SportDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9481B42E27F600FD00AD9B22 /* SportDetail.swift */; };
+		9481B43127F6074500AD9B22 /* AddUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9481B43027F6074500AD9B22 /* AddUser.swift */; };
+		94ED3D7027F35416001DC968 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED3D6F27F35416001DC968 /* TestView.swift */; };
+		94ED3D7727F38366001DC968 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED3D7627F38366001DC968 /* UserList.swift */; };
+		94ED3D7B27F38AC1001DC968 /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED3D7A27F38AC1001DC968 /* JsonData.swift */; };
+		94ED3D7D27F3CE10001DC968 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED3D7C27F3CE10001DC968 /* Api.swift */; };
+		94FA5B6F27F4849400A8F359 /* SportList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FA5B6E27F4849400A8F359 /* SportList.swift */; };
+		94FA5B7327F4946C00A8F359 /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FA5B7227F4946C00A8F359 /* UserDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		940A422427F305B200C2F939 /* LeClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		940A422727F305B200C2F939 /* LeClubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeClubApp.swift; sourceTree = "<group>"; };
+		940A422B27F305B400C2F939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		940A422E27F305B400C2F939 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		944FA85D27F66F7200FADDEF /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		944FA85F27F7592000FADDEF /* HistoricalList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalList.swift; sourceTree = "<group>"; };
+		944FA86127F75D5100FADDEF /* HistoricalDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalDetail.swift; sourceTree = "<group>"; };
+		944FA86327F76EFD00FADDEF /* AddSport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSport.swift; sourceTree = "<group>"; };
+		944FA86527F7706700FADDEF /* AddSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSession.swift; sourceTree = "<group>"; };
+		944FA86727F7717400FADDEF /* AddRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRole.swift; sourceTree = "<group>"; };
+		9481B42227F5FA9D00AD9B22 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = ../LoginView.swift; sourceTree = "<group>"; };
+		9481B42427F5FAD900AD9B22 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuView.swift; path = ../MenuView.swift; sourceTree = "<group>"; };
+		9481B42627F5FBC300AD9B22 /* RoleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleList.swift; sourceTree = "<group>"; };
+		9481B42827F5FBCF00AD9B22 /* SessionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionList.swift; sourceTree = "<group>"; };
+		9481B42A27F600E700AD9B22 /* RoleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleDetail.swift; sourceTree = "<group>"; };
+		9481B42C27F600F500AD9B22 /* SessionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetail.swift; sourceTree = "<group>"; };
+		9481B42E27F600FD00AD9B22 /* SportDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportDetail.swift; sourceTree = "<group>"; };
+		9481B43027F6074500AD9B22 /* AddUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUser.swift; sourceTree = "<group>"; };
+		94ED3D6F27F35416001DC968 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		94ED3D7627F38366001DC968 /* UserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
+		94ED3D7927F38842001DC968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		94ED3D7A27F38AC1001DC968 /* JsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonData.swift; sourceTree = "<group>"; };
+		94ED3D7C27F3CE10001DC968 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		94FA5B6E27F4849400A8F359 /* SportList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportList.swift; sourceTree = "<group>"; };
+		94FA5B7227F4946C00A8F359 /* UserDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		940A422127F305B200C2F939 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		940A421B27F305B200C2F939 = {
+			isa = PBXGroup;
+			children = (
+				940A422627F305B200C2F939 /* LeClub */,
+				940A422527F305B200C2F939 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		940A422527F305B200C2F939 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				940A422427F305B200C2F939 /* LeClub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		940A422627F305B200C2F939 /* LeClub */ = {
+			isa = PBXGroup;
+			children = (
+				94ED3D7927F38842001DC968 /* Info.plist */,
+				940A422727F305B200C2F939 /* LeClubApp.swift */,
+				94ED3D5B27F3145F001DC968 /* Models */,
+				94ED3D5C27F31465001DC968 /* Views */,
+				94ED3D5D27F3146B001DC968 /* Controllers */,
+				940A422B27F305B400C2F939 /* Assets.xcassets */,
+				940A422D27F305B400C2F939 /* Preview Content */,
+			);
+			path = LeClub;
+			sourceTree = "<group>";
+		};
+		940A422D27F305B400C2F939 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				940A422E27F305B400C2F939 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94ED3D5B27F3145F001DC968 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94ED3D7A27F38AC1001DC968 /* JsonData.swift */,
+				94ED3D7C27F3CE10001DC968 /* Api.swift */,
+				944FA85D27F66F7200FADDEF /* Date+Extension.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		94ED3D5C27F31465001DC968 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9481B42227F5FA9D00AD9B22 /* LoginView.swift */,
+				9481B42427F5FAD900AD9B22 /* MenuView.swift */,
+				94ED3D6F27F35416001DC968 /* TestView.swift */,
+				94FA5B6D27F4837800A8F359 /* Historique */,
+				94FA5B6C27F4836F00A8F359 /* Role */,
+				94FA5B6B27F4836200A8F359 /* Session */,
+				94FA5B6A27F4835900A8F359 /* Sport */,
+				94ED3D7827F383D5001DC968 /* Utilisateur */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94ED3D5D27F3146B001DC968 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		94ED3D7827F383D5001DC968 /* Utilisateur */ = {
+			isa = PBXGroup;
+			children = (
+				94ED3D7627F38366001DC968 /* UserList.swift */,
+				94FA5B7227F4946C00A8F359 /* UserDetail.swift */,
+				9481B43027F6074500AD9B22 /* AddUser.swift */,
+			);
+			path = Utilisateur;
+			sourceTree = "<group>";
+		};
+		94FA5B6A27F4835900A8F359 /* Sport */ = {
+			isa = PBXGroup;
+			children = (
+				94FA5B6E27F4849400A8F359 /* SportList.swift */,
+				9481B42E27F600FD00AD9B22 /* SportDetail.swift */,
+				944FA86327F76EFD00FADDEF /* AddSport.swift */,
+			);
+			path = Sport;
+			sourceTree = "<group>";
+		};
+		94FA5B6B27F4836200A8F359 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				9481B42827F5FBCF00AD9B22 /* SessionList.swift */,
+				9481B42C27F600F500AD9B22 /* SessionDetail.swift */,
+				944FA86527F7706700FADDEF /* AddSession.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		94FA5B6C27F4836F00A8F359 /* Role */ = {
+			isa = PBXGroup;
+			children = (
+				9481B42627F5FBC300AD9B22 /* RoleList.swift */,
+				9481B42A27F600E700AD9B22 /* RoleDetail.swift */,
+				944FA86727F7717400FADDEF /* AddRole.swift */,
+			);
+			path = Role;
+			sourceTree = "<group>";
+		};
+		94FA5B6D27F4837800A8F359 /* Historique */ = {
+			isa = PBXGroup;
+			children = (
+				944FA85F27F7592000FADDEF /* HistoricalList.swift */,
+				944FA86127F75D5100FADDEF /* HistoricalDetail.swift */,
+			);
+			path = Historique;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		940A422327F305B200C2F939 /* LeClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940A423227F305B400C2F939 /* Build configuration list for PBXNativeTarget "LeClub" */;
+			buildPhases = (
+				940A422027F305B200C2F939 /* Sources */,
+				940A422127F305B200C2F939 /* Frameworks */,
+				940A422227F305B200C2F939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeClub;
+			productName = LeClub;
+			productReference = 940A422427F305B200C2F939 /* LeClub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		940A421C27F305B200C2F939 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					940A422327F305B200C2F939 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 940A421F27F305B200C2F939 /* Build configuration list for PBXProject "LeClub" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 940A421B27F305B200C2F939;
+			productRefGroup = 940A422527F305B200C2F939 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				940A422327F305B200C2F939 /* LeClub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		940A422227F305B200C2F939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940A422F27F305B400C2F939 /* Preview Assets.xcassets in Resources */,
+				940A422C27F305B400C2F939 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		940A422027F305B200C2F939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94ED3D7727F38366001DC968 /* UserList.swift in Sources */,
+				94ED3D7B27F38AC1001DC968 /* JsonData.swift in Sources */,
+				944FA86427F76EFE00FADDEF /* AddSport.swift in Sources */,
+				94ED3D7027F35416001DC968 /* TestView.swift in Sources */,
+				9481B42D27F600F500AD9B22 /* SessionDetail.swift in Sources */,
+				9481B42327F5FA9D00AD9B22 /* LoginView.swift in Sources */,
+				944FA85E27F66F7200FADDEF /* Date+Extension.swift in Sources */,
+				9481B42B27F600E700AD9B22 /* RoleDetail.swift in Sources */,
+				9481B42527F5FAD900AD9B22 /* MenuView.swift in Sources */,
+				94ED3D7D27F3CE10001DC968 /* Api.swift in Sources */,
+				94FA5B7327F4946C00A8F359 /* UserDetail.swift in Sources */,
+				944FA86227F75D5100FADDEF /* HistoricalDetail.swift in Sources */,
+				9481B42F27F600FD00AD9B22 /* SportDetail.swift in Sources */,
+				9481B42927F5FBCF00AD9B22 /* SessionList.swift in Sources */,
+				94FA5B6F27F4849400A8F359 /* SportList.swift in Sources */,
+				9481B43127F6074500AD9B22 /* AddUser.swift in Sources */,
+				944FA86827F7717400FADDEF /* AddRole.swift in Sources */,
+				944FA86627F7706700FADDEF /* AddSession.swift in Sources */,
+				940A422827F305B200C2F939 /* LeClubApp.swift in Sources */,
+				9481B42727F5FBC300AD9B22 /* RoleList.swift in Sources */,
+				944FA86027F7592000FADDEF /* HistoricalList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		940A423027F305B400C2F939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		940A423127F305B400C2F939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		940A423327F305B400C2F939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LeClub/Preview Content\"";
+				DEVELOPMENT_TEAM = 9SD3L7LJU7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeClub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clement.LeClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		940A423427F305B400C2F939 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LeClub/Preview Content\"";
+				DEVELOPMENT_TEAM = 9SD3L7LJU7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeClub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clement.LeClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		940A421F27F305B200C2F939 /* Build configuration list for PBXProject "LeClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940A423027F305B400C2F939 /* Debug */,
+				940A423127F305B400C2F939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940A423227F305B400C2F939 /* Build configuration list for PBXNativeTarget "LeClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940A423327F305B400C2F939 /* Debug */,
+				940A423427F305B400C2F939 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 940A421C27F305B200C2F939 /* Project object */;
+}
